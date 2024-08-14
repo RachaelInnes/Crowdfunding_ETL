@@ -89,4 +89,26 @@ Extracted and transformed the contacts.xlsx Excel data to create a contacts Data
 
 8. Verify that each table has the correct data by running a SELECT statement for each.
 
-    - SELECT * FROM contacts LIMIT 10;
+    - SELECT * FROM Category;
+   
+      <img width="199" alt="image" src="https://github.com/user-attachments/assets/d3fc7648-bba2-428a-9d01-a91ef13781e7">
+
+    - SELECT * FROM Subcategory;
+
+      <img width="192" alt="image" src="https://github.com/user-attachments/assets/b1cc1726-0ae5-410c-af13-f5901d5078fb">
+
+    - SELECT * FROM Contacts;
+
+       <img width="372" alt="image" src="https://github.com/user-attachments/assets/cdd07653-0507-4330-a9a1-cfe7fa12b8e6">
+
+    - SELECT * FROM Campaign;
+
+      ![image](https://github.com/user-attachments/assets/af38aeba-2eea-4725-b53b-bca27649b989)
+
+
+      
+
+
+      
+
+      
