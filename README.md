@@ -1,8 +1,8 @@
 # Crowdfunding_ETL
-Project 2
+
+Project 2 (Rachael Innes and Evgeniia Kozodeeva)
 
 ![image](https://github.com/user-attachments/assets/27562402-977b-4136-88fa-38b319baa0c0)
-
 
 
 
@@ -13,14 +13,13 @@ This project builds an ETL (Extract, Transform, Load) pipeline using Python, Pan
 - Python
 - Pandas
 - Postgres SQL
+- QuickDBD
 
 # Project Steps
 1. Extract and Transform Data:
-  - Use Python and either Python dictionary methods or regular expressions to extract and transform the data.
-   
+   - Use Python and either Python dictionary methods or regular expressions to extract and transform the data.
 2. Create CSV Files:
-   - After transforming the data, create four CSV files to store the processed data.
-    
+   - After transforming the data, create four CSV files to store the processed data.    
 3. Generate ERD and Table Schema:
    - Utilize the CSV file data to create an Entity-Relationship Diagram (ERD) that visually represents the relationships between different entities.
    - Create a table schema based on the transformed data, outlining the structure of the tables.
@@ -31,24 +30,36 @@ This project builds an ETL (Extract, Transform, Load) pipeline using Python, Pan
 
 Extracted and transformed the crowdfunding.xlsx Excel data to create category and subcategory DataFrames with the requested columns.
 
-  - Category CSV file
+  - [Category CSV file](https://github.com/RachaelInnes/Crowdfunding_ETL/blob/main/Resources/category.csv)
   - Category DataFrame
 
-  - Subcategory CSV file
+    ![image](https://github.com/user-attachments/assets/7eb6c871-b693-4e26-8f86-23773c2acb2a)
+
+
+  - [Subcategory CSV file](https://github.com/RachaelInnes/Crowdfunding_ETL/blob/main/Resources/subcategory.csv)
   - Subcategory DataFrame
+
+    ![image](https://github.com/user-attachments/assets/fcf78a6c-de19-413d-b701-f9a03f8b9307)
+
 
 # Create the Campaign DataFrame
 
 Extracted and transformed the crowdfunding.xlsx Excel data to create a campaign DataFrame with the requested columns.
 
-  - Campaign CSV file
+  - [Campaign CSV file](https://github.com/RachaelInnes/Crowdfunding_ETL/blob/main/Resources/campaign.csv)
   - Campaign DataFrame
+
+    ![image](https://github.com/user-attachments/assets/4f8ece98-fb8f-4db9-a794-a8579ddb478b)
+
 
 # Create the Contacts DataFrame
 Extracted and transformed the contacts.xlsx Excel data to create a contacts DataFrame with the requested columns.
 
-  - Contacts CSV file
+  - [Contacts CSV file](https://github.com/RachaelInnes/Crowdfunding_ETL/blob/main/Resources/contacts.csv)
   - Contacts DataFrame
+    
+    ![image](https://github.com/user-attachments/assets/a388d6f8-8ff0-45b0-a283-3502537d6d24)
+
 
 # Create the Crowdfunding Database
 
