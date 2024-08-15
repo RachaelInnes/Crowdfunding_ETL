@@ -9,7 +9,8 @@ Rachael Innes and Evgeniia Kozodeeva
 
 
 # Background
-This project builds an ETL (Extract, Transform, Load) pipeline using Python, Pandas, and Python dictionary methods or regular expressions. The goal is to extract and transform the data, followed by creating four CSV files. These CSV files will then be used to generate an Entity-Relationship Diagram (ERD) and a table schema. Finally, the transformed data will be uploaded into a Postgres database.
+Crowdfunding platforms like Kickstarter and Indiegogo have been growing in success and popularity since the late 2000s. From independent content creators to famous celebrities, more and more people are using crowdfunding to launch new products and generate buzz, but not every project has found success. 
+This mini project builds an ETL (Extract, Transform, Load) pipeline using Python, Pandas, and Python dictionary methods and regular expressions. The goal is to extract and transform the data, followed by creating four CSV files. These CSV files will then be used to generate an Entity-Relationship Diagram (ERD) and a table schema. Finally, the transformed data will be uploaded into a Postgres database.
 
 # Technologies Used
 - Python
